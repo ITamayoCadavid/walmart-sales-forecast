@@ -68,3 +68,23 @@ Se desarrolló un modelo de aprendizaje automático que permite predecir las ven
 1. Cloná el repositorio:
    ```bash
    git clone https://github.com/ITamayoCadavid/walmart-sales-forecast.git
+
+   # 📊 Dashboard: Pronóstico de Ventas de Walmart
+
+🔗 [Ver Dashboard en Looker Studio]([https://lookerstudio.google.com/reporting/YOUR_LINK_HERE](https://lookerstudio.google.com/reporting/17931a0e-87fe-462d-aef1-a71fded29e77))
+
+Este dashboard fue creado con **Looker Studio** y conectado a **Google Sheets** como fuente de datos. Incluye:
+
+- 📈 Comparación en series temporales de ventas reales vs. ventas pronosticadas  
+- 📊 Gráfico de barras por mes para análisis de estacionalidad  
+- 📅 Filtro de fechas para análisis por periodo  
+- 🏬 Filtros dinámicos por tienda y departamento  
+- 🧠 Gráfico de dispersión para explorar la relación entre el **IPC (CPI)** y las ventas semanales  
+- 🎯 Scorecards con métricas clave como ventas máximas, número de tiendas, etc.
+
+---
+
+## 🎯 Objetivo
+
+El objetivo del dashboard es ofrecer una **visión completa del comportamiento de las ventas** a lo largo del tiempo
+
