@@ -61,4 +61,3 @@ Cómo integrar datos externos (feriados) al análisis.
 
 Entrenamiento de modelos base como punto de partida para mejorar predicciones en proyectos reales.
 
-# walmart-sales-forecast
