@@ -67,4 +67,4 @@ Se desarrolló un modelo de aprendizaje automático que permite predecir las ven
 
 1. Cloná el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/walmart-sales-forecast.git
+   git clone https://github.com/ITamayoCadavid/walmart-sales-forecast.git
