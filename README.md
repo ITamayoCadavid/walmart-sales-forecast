@@ -1,63 +1,70 @@
-📊 Walmart Sales Forecasting
+<p align="center">
+  <img src="cover.png" alt="Walmart Sales Forecasting" width="600"/>
+</p>
 
-Proyecto de análisis y predicción de ventas semanales de tiendas Walmart, tomando en cuenta variables temporales, espaciales y semanas con feriados importantes en EE.UU.
+<h1 align="center">🛒 Walmart Sales Forecasting</h1>
+<p align="center">Predicción de ventas semanales en tiendas Walmart con Machine Learning</p>
 
-🎯 Objetivo del Proyecto
-Predecir las ventas semanales (Weekly_Sales) de cada tienda de Walmart.
+---
 
-Analizar si las ventas se ven afectadas por factores temporales (estaciones, feriados) y geográficos (número de tienda).
+## 📌 Descripción
 
-Evaluar el impacto de feriados como Navidad, Acción de Gracias, Super Bowl y Día del Trabajo en las ventas.
+Este proyecto analiza datos reales proporcionados por Walmart para estudiar el comportamiento de las ventas semanales, con especial énfasis en el impacto de fechas festivas como **Navidad**, **Thanksgiving**, **Super Bowl** y **Labor Day**.
 
-📁 Estructura del proyecto
-Walmart_Sales_Forecasting.ipynb: Notebook principal con todo el análisis, visualizaciones y modelo predictivo.
+Se desarrolló un modelo de aprendizaje automático que permite predecir las ventas semanales por tienda, incorporando factores como el tiempo, el desempleo, la inflación, promociones y estacionalidad.
 
-cover.png: Imagen de portada para este proyecto.
+---
 
-README.md: Documentación del proyecto.
+## 🎯 Objetivos
 
-📊 Análisis Exploratorio (EDA)
-Se realizó un EDA donde se exploraron:
+- Analizar los factores que impactan las ventas semanales.
+- Evaluar la influencia de las semanas festivas en el comportamiento de compra.
+- Predecir ventas semanales utilizando técnicas de Machine Learning.
+- Desarrollar un portafolio profesional que demuestre habilidades en EDA, modelado y visualización de datos.
 
-Comportamientos de ventas por tienda y semana.
+---
 
-Tendencias relacionadas con el clima, el desempleo, el CPI y los precios del combustible.
+## 🧰 Herramientas y tecnologías
 
-Comparación de semanas con y sin feriados.
+- 🐍 Python (Google Colab)
+- 📊 Pandas, Matplotlib, Seaborn
+- 🧠 Scikit-learn (Random Forest)
+- 💾 Dataset: [Walmart Sales Forecast - Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast)
 
-🤖 Modelo Predictivo
-Se entrenó un modelo de regresión usando RandomForestRegressor para predecir ventas semanales. Las métricas obtenidas fueron:
+---
 
-✅ RMSE: 21,962.37
+## 📈 Análisis Exploratorio (EDA)
 
-✅ R²: 0.0750
+- Limpieza y tratamiento de valores nulos.
+- Visualizaciones de tendencias de ventas.
+- Análisis de correlación entre variables.
+- Estudio del impacto de días festivos.
 
-Nota: Es un modelo base que puede mejorarse con técnicas de Feature Engineering, optimización de hiperparámetros y modelos más complejos.
+---
 
-🧰 Herramientas y tecnologías
-Python
+## 🤖 Modelado
 
-Pandas, NumPy
+- División de datos: Train/Test.
+- Modelo aplicado: `RandomForestRegressor`.
+- Métricas de evaluación:
+  - RMSE: 21,962.37
+  - R²: 0.0750
 
-Matplotlib, Seaborn
+---
 
-Scikit-learn
+## 🧠 Conclusiones
 
-Google Colab
+- Las semanas festivas tienen un impacto relevante en el volumen de ventas.
+- Variables como el desempleo y la temperatura muestran cierta relación con la variabilidad en ventas.
+- Se recomienda seguir optimizando el modelo con:
+  - Ingeniería de características
+  - Algoritmos más avanzados (XGBoost, LightGBM)
+  - Ajuste de hiperparámetros
 
-GitHub
+---
 
-▶ Cómo ejecutar el proyecto
-Cloná este repositorio o abrilo directamente desde Google Colab.
+## 🚀 Cómo ejecutar
 
-Asegurate de tener el archivo kaggle.json configurado para descargar los datasets desde Kaggle.
-
-Ejecutá el notebook paso a paso.
-
-💡 Lecciones aprendidas
-Importancia del análisis exploratorio para identificar patrones temporales y espaciales.
-
-Cómo integrar datos externos (feriados) al análisis.
-
-Entrenamiento de modelos base como punto de partida para mejorar predicciones en proyectos reales.
-
+1. Cloná el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/walmart-sales-forecast.git
